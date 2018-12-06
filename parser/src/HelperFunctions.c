@@ -40,7 +40,7 @@ char* readFileToString(char* fileName) {
     }
 
     //Calloc size of file for string
-    char* toReturn = calloc(fileSize, sizeof(char*));
+    char* toReturn = calloc(fileSize, sizeof(char));
 
     //Read file contents character by character into a string
     fread(toReturn, fileSize, 1, file);
