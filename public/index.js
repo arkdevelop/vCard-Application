@@ -58,7 +58,7 @@ $(document).ready(function() {
 	success: function(data) {
 	    listOfFileNames = data;
 
-	    if (listOfFileNames.length == 0) {
+	    if (listOfFileNames.length === 0) {
                 $("#file_log_table tbody").remove();
 		//Set tables to "No Data"
                 let newTable = "<tbody><tr>"
