@@ -1,7 +1,7 @@
 # vCard-Application [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f3bb9b10a7e74eacaedda969d4fd62dd)](https://www.codacy.com/app/arkdevelop/vCard-Application?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=arkdevelop/vCard-Application&amp;utm_campaign=Badge_Grade)
 RESTful application that combines a parsing back-end written in C to a front-end Node.js web-based GUI to handle .vcf/.vcard files.
 
-# Installation of Node App
+<h2> Installation of Node App </h2>
 <h4>1. Install</h4>
 <p>From the root directory of the application</p>
 <code>npm install</code>
