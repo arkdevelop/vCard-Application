@@ -104,14 +104,12 @@ app.get('/fileLog', function (req, res) {
         res.send(currentFileLog);
     }
     else {
-	console.log("Deleting " + currentFile);
         fs.unlinkSync(currentFile);
     }
 });
 
 //Listen on given port number
 app.listen(portNum);
-console.log('Running app at localhost: ' + portNum);
 
 /**
  * getUploadDirectoryFiles: Retrieves all files from uploads directory and formats them into an array
